@@ -1,0 +1,117 @@
+body {
+    background:#fff;
+    font-family: "Nunito", sans-serif;
+    overflow-x: hidden;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: #f5d9d5;;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #f80;
+}
+
+#mainNavbar .navbar-brand {
+    color: #f80;
+    font-size: 1.5rem;
+}
+
+#mainNavbar {
+    width: 100%;
+
+    position: fixed;
+    background: rgba(18, 18, 32, 0.705);
+    z-index: 10;
+}
+.heading{
+    margin-top: 4rem;
+    padding-top: 1rem;
+}
+.heading h1{
+    font-size: 3rem;
+}
+.heading p{
+    font-size: 1.5rem;
+}
+.row{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.offer{
+  margin-bottom: 2rem;
+}
+.offer h1{
+  font-size: 3rem;
+}
+.offer p{
+  font-size: 1rem;
+}
+.clearfix{
+  margin-top: 1.5rem;
+}
+.footer {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/footer-bg.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/footer-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .footer .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .footer .box-container .box h3 {
+    font-size: 2rem;
+    padding: 1rem 0;
+    color: #fff;
+  }
+  
+  .footer .box-container .box a {
+    display: block;
+    font-size: 1.4rem;
+    color: #fff;
+    padding: .5rem 0;
+  }
+  
+  .footer .box-container .box a i {
+    color: #219150;
+    padding-right: .5rem;
+  }
+  
+  .footer .box-container .box a:hover {
+    color: #219150;
+  }
+  
+  .footer .box-container .box a:hover i {
+    padding-right: 2rem;
+  }
+  
+  .footer .credit {
+    text-align: center;
+    margin-top: 2.5rem;
+    padding: 1rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  .footer .credit span {
+    color: #219150;
+  }
+ 
